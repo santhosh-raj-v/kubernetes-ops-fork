@@ -29,7 +29,7 @@ resource "helm_release" "helm_chart" {
   wait_for_jobs              = var.wait_for_jobs
   dependency_update          = var.dependency_update
   replace                    = var.replace
-  pass_credentials           = var.pass_credentials
+  # pass_credentials           = var.pass_credentials
   lint                       = var.lint
 
   values = [
