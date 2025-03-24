@@ -37,6 +37,6 @@ variable "k8s_service_account_name" {
 
 variable "cluster-autoscaler_helm_version" {
   type        = string
-  default     = "9.24.0"
+  default     = "9.29.0"
   description = "cluster-autoscaler helm chart version.  https://artifacthub.io/packages/helm/cluster-autoscaler/cluster-autoscaler"
 }
