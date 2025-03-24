@@ -83,7 +83,7 @@ variable "keyring" {
 }
 
 variable "timeout" {
-  default = 300
+  default = 1000
 }
 
 variable "disable_webhooks" {
